@@ -1,0 +1,97 @@
+{
+  "regulatory_requirements": [
+    {
+      "id": "regulatory_requirement_1",
+      "requirements": [
+        {
+          "target":"component",
+          "identifier": {
+            "action": "add_record"
+          },
+          "target_values": {
+            "data_consent_check": true
+          }
+        },
+        {
+          "target":"user",
+          "identifier": {
+            "role": "patient"
+          },
+          "target_values": {
+            "data_storing_consent": true
+          }
+        }
+      ],
+      "reference": "GDPR"
+    },
+    {
+      "id": "regulatory_requirement_2",
+      "requirements": [
+        {
+          "target":"data",
+          "identifier": {
+            "dataset": {
+              "motivations_and_intentions": {
+                "domain": "healthcare"
+              }
+            }
+          },
+          "target_values": {
+            "dataset": {
+              "motivations_and_intentions": {
+                "intended_use": "medical_diagnosis"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "regulatory_requirement_3",
+      "requirements": [
+        {
+          "target":"data",
+          "identifier": {
+            "dataset": {
+              "motivations_and_intentions": {
+                "domain": "machine_learning"
+              }
+            }
+          },
+          "target_values": {
+            "dataset": {
+              "motivations_and_intentions": {
+                "intended_use": "object_detection"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "regulatory_requirement_4",
+      "requirements": [
+        {
+          "target":"model",
+          "identifier": {
+            "model_details": {
+              "type": "classification"
+            }
+          },
+          "target_values": {
+              "ethical_considerations": {
+                "bias": {
+                  "excluded_attributes": "race"
+                }
+              }, 
+              "intended_use": {
+                "primary": {
+                    "users": "developers"
+                  }
+              }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "metadata_card_based_regulatory_requirements_compliance",
+  "version": "1.0.0",
+  "description": "Metadata card based regulatory requirements compliance check",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amehraj/metadata_card_based_regulatory_requirements_compliance.git"
+  },
+  "author": "Ali Mehraj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"}
+  ,
+  "bugs": {
+    "url": "https://github.com/amehraj/metadata_card_based_regulatory_requirements_compliance/issues"
+  },
+  "homepage": "https://github.com/amehraj/metadata_card_based_regulatory_requirements_compliance#readme"
+}
